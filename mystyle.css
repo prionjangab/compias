@@ -1,7 +1,11 @@
 body {
 	background-color: #f18973 ;
-}
-
+	}
+img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	}
 p {
 	background-color: #787467;
-}
+	}
