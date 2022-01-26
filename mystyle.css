@@ -1,11 +1,18 @@
 body {
-	background-color: #4a514a ;
-	}
+	background-color: #4A514C;
+}
 img {
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-	}
+			display: block;
+  			margin-left: auto;
+  			margin-right: auto;
+		}
+
 p {
-	background-color: #54331A;
-	}
+	background-color: #787467;
+}
+h2 {
+	background-color: #787467;
+}
+h3 {
+	background-color: #787467;
+}
