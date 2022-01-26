@@ -14,6 +14,13 @@
 		<br>
 		
 <img  src="terrorist_PNG.png" alt="Terrorist" width="295" height="295" class="center">
+	
+	<p style="text-align:center;">Date/Time: <span id="datetime"></span></p>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (("0"+dt.getDate()).slice(-2)) +"/"+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()+1).slice(-2)) +":"+ (("0"+dt.getMinutes()+1).slice(-2));
+</script>
 		
 		<h2 style="color:#BEB9AB;"> Details </h2>
 <pre style="color:#BEB9AB;" >
